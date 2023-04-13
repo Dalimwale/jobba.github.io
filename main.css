@@ -1,0 +1,895 @@
+html {
+    font-size: 22px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("img/balloons-1869790_640.jpg");
+    height: 470vh;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+
+}
+
+a{
+
+    color: #070707;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+.button {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    width: 4.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: rgb(255, 250, 250);
+    background-color: rgb(255, 255, 255);
+    border: 7px rgb(0, 0, 0);
+    border-radius: 100px;
+    cursor: pointer;
+    transform: .3s;
+}
+.button:focus{
+    color: rgb(102, 41, 19);
+    border: 7px rgb(74, 11, 11);
+    box-shadow: 0px 0px 0px 1px white;
+    animation: anim-shadow .3 forwards;
+}
+
+@keyframes anim-shadow{
+
+    100%{
+        box-shadow:0px 0px 50px 20px white ;
+    }
+
+}
+
+
+.button2 {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    width: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.3em;
+    font-weight: bold;
+    color: rgb(255, 250, 250);
+    background-color: rgb(255, 106, 0);
+    border: 7px rgb(214, 28, 7);
+    border-radius: 1000px;
+    cursor: pointer;
+    transform: .3s;
+}
+.button2:focus {
+    color: rgb(102, 41, 19);
+    border: 7px rgb(74, 11, 11);
+    box-shadow: 0px 0px 0px 1px white;
+    animation: anim-shadow .3 forwards;
+}
+
+@keyframes anim-shadow{
+
+    100%{
+        box-shadow:0px 0px 50px 20px white ;
+    }
+
+}
+
+
+.button3 {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    width: 9em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: rgb(255, 250, 250);
+    background-color: rgb(255, 0, 144);
+    border: 7px rgb(221, 3, 255);
+    border-radius: 65px;
+    cursor: pointer;
+    transform: .3s;
+}
+.button3:focus{
+    color: rgb(102, 41, 19);
+    border: 7px rgb(74, 11, 11);
+    box-shadow: 0px 0px 0px 1px white;
+    animation: anim-shadow .3 forwards;
+}
+
+@keyframes anim-shadow{
+
+    100%{
+        box-shadow:0px 0px 50px 20px white ;
+    }
+
+}
+
+
+.button4 {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    width: 6em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: rgb(253, 185, 0);
+    border: 7px salmon;
+    border-radius: 15px;
+    cursor: pointer;
+    transform: .3s;
+}
+.button4:focus{
+    color: rgb(102, 41, 19);
+    border: 7px rgb(74, 11, 11);
+    box-shadow: 0px 0px 0px 1px white;
+    animation: anim-shadow .3 forwards;
+}
+
+@keyframes anim-shadow{
+
+    100%{
+        box-shadow:0px 0px 50px 20px white ;
+    }
+
+}
+
+
+.button5 {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    width: 8em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: rgb(255, 250, 250);
+    background-color: rgb(18, 235, 255);
+    border: 7px salmon;
+    border-radius: 15px;
+    cursor: pointer;
+    transform: .3s;
+}
+.button5:focus{
+    color: rgb(102, 41, 19);
+    border: 7px rgb(74, 11, 11);
+    box-shadow: 0px 0px 0px 1px white;
+    animation: anim-shadow .3 forwards;
+}
+
+@keyframes anim-shadow{
+
+    100%{
+        box-shadow:0px 0px 50px 20px white ;
+    }
+
+}
+
+.button6 {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    width: 6em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: rgb(255, 250, 250);
+    background-color: rgb(255, 162, 162);
+    border: 7px salmon;
+    border-radius: 15px;
+    cursor: pointer;
+    transform: .3s;
+}
+.button6:focus{
+    color: rgb(102, 41, 19);
+    border: 7px rgb(74, 11, 11);
+    box-shadow: 0px 0px 0px 1px white;
+    animation: anim-shadow .3 forwards;
+}
+
+@keyframes anim-shadow{
+
+    100%{
+        box-shadow:0px 0px 50px 20px white ;
+    }
+
+}
+
+.button7 {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    width: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(255, 250, 250);
+    background-color: rgb(242, 255, 0);
+    border: 7px salmon;
+    border-radius: 10000px;
+    cursor: pointer;
+    transform: .3s;
+}
+.button7:focus{
+    color: rgb(102, 41, 19);
+    border: 7px rgb(74, 11, 11);
+    box-shadow: 0px 0px 0px 1px white;
+    animation: anim-shadow .3 forwards;
+}
+
+@keyframes anim-shadow{
+
+    100%{
+        box-shadow:0px 0px 50px 20px white ;
+    }
+
+}
+
+.button8 {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    width: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: rgb(255, 250, 250);
+    background-color: rgb(255, 164, 60);
+    border: 7px salmon;
+    border-radius: 70px;
+    cursor: pointer;
+    transform: .3s;
+}
+.button8:focus{
+    color: rgb(102, 41, 19);
+    border: 7px rgb(74, 11, 11);
+    box-shadow: 0px 0px 0px 1px white;
+    animation: anim-shadow .3 forwards;
+}
+
+@keyframes anim-shadow{
+
+    100%{
+        box-shadow:0px 0px 50px 20px white ;
+    }
+
+}
+
+.button9 {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    width: 7.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: rgb(255, 250, 250);
+    background-color: rgb(255, 41, 112);
+    border: 7px rgb(251, 22, 255);
+    border-radius: 15px;
+    cursor: pointer;
+    transform: .3s;
+}
+.button9:focus{
+    color: rgb(102, 41, 19);
+    border: 7px rgb(74, 11, 11);
+    box-shadow: 0px 0px 0px 1px white;
+    animation: anim-shadow .3 forwards;
+}
+
+@keyframes anim-shadow{
+
+    100%{
+        box-shadow:0px 0px 50px 20px white ;
+    }
+
+}
+
+.button10 {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    width: 13em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: rgb(255, 250, 250);
+    background-color: rgb(255, 188, 33);
+    border: 7px rgb(251, 22, 255);
+    border-radius: 22px;
+    cursor: pointer;
+    transform: .3s;
+}
+.button10:focus{
+    color: rgb(102, 41, 19);
+    border: 7px rgb(74, 11, 11);
+    box-shadow: 0px 0px 0px 1px white;
+    animation: anim-shadow .3 forwards;
+}
+
+@keyframes anim-shadow{
+
+    100%{
+        box-shadow:0px 0px 50px 20px white ;
+    }
+
+}
+
+
+.button11 {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    width: 9em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: rgb(255, 250, 250);
+    background-color: rgb(255, 255, 255);
+    border: 7px rgb(251, 22, 255);
+    border-radius: 150px;
+    cursor: pointer;
+    transform: .3s;
+}
+.button11:focus{
+    color: rgb(102, 41, 19);
+    border: 7px rgb(74, 11, 11);
+    box-shadow: 0px 0px 0px 1px white;
+    animation: anim-shadow .3 forwards;
+}
+
+@keyframes anim-shadow{
+
+    100%{
+        box-shadow:0px 0px 50px 20px white ;
+    }
+
+}
+
+
+.button12 {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    width: 4.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: rgb(255, 250, 250);
+    background-color: rgb(8, 243, 255);
+    border: 7px rgb(0, 239, 251);
+    border-radius: 50px;
+    cursor: pointer;
+    transform: .3s;
+}
+.button12:focus{
+    color: rgb(102, 41, 19);
+    border: 7px rgb(74, 11, 11);
+    box-shadow: 0px 0px 0px 1px white;
+    animation: anim-shadow .3 forwards;
+}
+
+@keyframes anim-shadow{
+
+    100%{
+        box-shadow:0px 0px 50px 20px white ;
+    }
+
+}
+
+.button13 {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    width: 13em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: rgb(255, 250, 250);
+    background-color: rgb(255, 0, 170);
+    border: 7px rgb(0, 239, 251);
+    border-radius: 20px;
+    cursor: pointer;
+    transform: .3s;
+}
+.button13:focus{
+    color: rgb(102, 41, 19);
+    border: 7px rgb(74, 11, 11);
+    box-shadow: 0px 0px 0px 1px white;
+    animation: anim-shadow .3 forwards;
+}
+
+@keyframes anim-shadow{
+
+    100%{
+        box-shadow:0px 0px 50px 20px white ;
+    }
+
+}
+
+.button14 {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    width: 9em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: rgb(255, 250, 250);
+    background-color: rgb(230, 255, 5);
+    border: 7px rgb(0, 239, 251);
+    border-radius: 200px;
+    cursor: pointer;
+    transform: .3s;
+}
+.button14:focus{
+    color: rgb(102, 41, 19);
+    border: 7px rgb(74, 11, 11);
+    box-shadow: 0px 0px 0px 1px white;
+    animation: anim-shadow .3 forwards;
+}
+
+@keyframes anim-shadow{
+
+    100%{
+        box-shadow:0px 0px 50px 20px white ;
+    }
+
+}
+
+.button15 {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    width: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: rgb(255, 250, 250);
+    background-color: rgb(255, 255, 255);
+    border: 7px rgb(0, 239, 251);
+    border-radius: 20px;
+    cursor: pointer;
+    transform: .3s;
+}
+.button15:focus{
+    color: rgb(102, 41, 19);
+    border: 7px rgb(74, 11, 11);
+    box-shadow: 0px 0px 0px 1px white;
+    animation: anim-shadow .3 forwards;
+}
+
+@keyframes anim-shadow{
+
+    100%{
+        box-shadow:0px 0px 50px 20px white ;
+    }
+
+}
+
+
+.button16 {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    width: 8em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: rgb(255, 250, 250);
+    background-color: rgb(255, 234, 0);
+    border: 7px rgb(0, 239, 251);
+    border-radius: 1000px;
+    cursor: pointer;
+    transform: .3s;
+}
+.button16:focus{
+    color: rgb(102, 41, 19);
+    border: 7px rgb(74, 11, 11);
+    box-shadow: 0px 0px 0px 1px white;
+    animation: anim-shadow .3 forwards;
+}
+
+@keyframes anim-shadow{
+
+    100%{
+        box-shadow:0px 0px 50px 20px white ;
+    }
+
+}
+
+
+.button17 {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    width: 5.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: rgb(255, 250, 250);
+    background-color: rgb(255, 75, 75);
+    border: 7px rgb(0, 239, 251);
+    border-radius: 100px;
+    cursor: pointer;
+    transform: .3s;
+}
+.button17:focus{
+    color: rgb(102, 41, 19);
+    border: 7px rgb(74, 11, 11);
+    box-shadow: 0px 0px 0px 1px white;
+    animation: anim-shadow .3 forwards;
+}
+
+@keyframes anim-shadow{
+
+    100%{
+        box-shadow:0px 0px 50px 20px white ;
+    }
+
+}
+
+.button18 {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    width: 6em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+    font-weight: bold;
+    color: rgb(255, 250, 250);
+    background-color: rgb(0, 225, 255);
+    border: 7px rgb(0, 239, 251);
+    border-radius: 70px;
+    cursor: pointer;
+    transform: .3s;
+}
+.button18:focus{
+    color: rgb(102, 41, 19);
+    border: 7px rgb(74, 11, 11);
+    box-shadow: 0px 0px 0px 1px white;
+    animation: anim-shadow .3 forwards;
+}
+
+@keyframes anim-shadow{
+
+    100%{
+        box-shadow:0px 0px 50px 20px white ;
+    }
+
+}
+
+
+.button19 {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    width: 9em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+    font-weight: bold;
+    color: rgb(255, 250, 250);
+    background-color: rgb(0, 255, 98);
+    border: 7px rgb(0, 239, 251);
+    border-radius: 30px;
+    cursor: pointer;
+    transform: .3s;
+}
+.button19:focus{
+    color: rgb(102, 41, 19);
+    border: 7px rgb(74, 11, 11);
+    box-shadow: 0px 0px 0px 1px white;
+    animation: anim-shadow .3 forwards;
+}
+
+@keyframes anim-shadow{
+
+    100%{
+        box-shadow:0px 0px 50px 20px white ;
+    }
+
+}
+
+
+.button20 {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    width: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(255, 250, 250);
+    background-color: rgb(255, 238, 0);
+    border: 7px rgb(0, 239, 251);
+    border-radius: 30px;
+    cursor: pointer;
+    transform: .3s;
+}
+.button20:focus{
+    color: rgb(102, 41, 19);
+    border: 7px rgb(74, 11, 11);
+    box-shadow: 0px 0px 0px 1px white;
+    animation: anim-shadow .3 forwards;
+}
+
+@keyframes anim-shadow{
+
+    100%{
+        box-shadow:0px 0px 50px 20px white ;
+    }
+
+}
+
+.button21 {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    width: 7em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.4em;
+    font-weight: bold;
+    color: rgb(255, 250, 250);
+    background-color: #ff7a7a;
+    border: 7px rgb(0, 239, 251);
+    border-radius: 500px;
+    cursor: pointer;
+    transform: .3s;
+}
+.button21:focus{
+    color: rgb(102, 41, 19);
+    border: 7px rgb(74, 11, 11);
+    box-shadow: 0px 0px 0px 1px white;
+    animation: anim-shadow .3 forwards;
+}
+
+@keyframes anim-shadow{
+
+    100%{
+        box-shadow:0px 0px 50px 20px white ;
+    }
+
+}
+
+.button22 {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    width: 7.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(255, 250, 250);
+    background-color: rgb(203, 177, 255);
+    border: 7px salmon;
+    border-radius: 150px;
+    cursor: pointer;
+    transform: .3s;
+}
+.button22:focus{
+    color: rgb(102, 41, 19);
+    border: 7px rgb(74, 11, 11);
+    box-shadow: 0px 0px 0px 1px white;
+    animation: anim-shadow .3 forwards;
+}
+
+@keyframes anim-shadow{
+
+    100%{
+        box-shadow:0px 0px 50px 20px white ;
+    }
+
+}
+
+
+.button23 {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    width: 8em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.4em;
+    font-weight: bold;
+    color: rgb(255, 250, 250);
+    background-color: rgb(255, 255, 0);
+    border: 7px salmon;
+    border-radius: 150px;
+    cursor: pointer;
+    transform: .3s;
+}
+.button23:focus{
+    color: rgb(102, 41, 19);
+    border: 7px rgb(74, 11, 11);
+    box-shadow: 0px 0px 0px 1px white;
+    animation: anim-shadow .3 forwards;
+}
+
+@keyframes anim-shadow{
+
+    100%{
+        box-shadow:0px 0px 50px 20px white ;
+    }
+
+}
+
+
+.btn1 {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    width: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.4em;
+    font-weight: bold;
+    color: rgb(255, 250, 250);
+    background-color: rgb(255, 172, 131);
+    border: 7px salmon;
+    border-radius: 1000px;
+    cursor: pointer;
+    transform: .3s;
+}
+.btn1:focus{
+    color: rgb(102, 41, 19);
+    border: 7px rgb(74, 11, 11);
+    box-shadow: 0px 0px 0px 1px white;
+    animation: anim-shadow .3 forwards;
+}
+
+@keyframes anim-shadow{
+
+    100%{
+        box-shadow:0px 0px 50px 20px white ;
+    }
+
+}
+
+.Ophthalmology {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    width: 8em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: rgb(255, 250, 250);
+    background-color: rgb(255, 255, 255);
+    border: 7px rgb(0, 0, 0);
+    border-radius: 100px;
+    cursor: pointer;
+    transform: .3s;
+}
+.Ophthalmology:focus{
+    color: rgb(102, 41, 19);
+    border: 7px rgb(74, 11, 11);
+    box-shadow: 0px 0px 0px 1px white;
+    animation: anim-shadow .3 forwards;
+}
+
+@keyframes anim-shadow{
+
+    100%{
+        box-shadow:0px 0px 50px 20px white ;
+    }
+
+}
+
+
+.button2{
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    width: 15em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: rgb(255, 250, 250);
+    background-color: rgb(255, 124, 31);
+    border: 7px rgb(214, 28, 7);
+    border-radius: 15px;
+    cursor: pointer;
+    transform: .3s;
+}
+.button2:focus{
+    color: rgb(102, 41, 19);
+    border: 7px rgb(74, 11, 11);
+    box-shadow: 0px 0px 0px 1px white;
+    animation: anim-shadow .3 forwards;
+}
+
+@keyframes anim-shadow{
+
+    100%{
+        box-shadow:0px 0px 50px 20px white ;
+    }
+
+}
+
+
+
+
+.heading1{
+    width: 1300px;
+    height: 250px;
+    background: rgb(255, 242, 0);
+    position: relative;
+    display: flex;
+    border-radius: 1999px;
+    font-size: 65px;
+    font-style: italic;
+    text-align: left;
+
+}
+
+.heading2{
+    width: 800px;
+    height: 250px;
+    background: rgb(255, 0, 144);
+    position: relative;
+    display: flex;
+    border-radius: 1999px;
+    font-size: 65px;
+    font-style: italic;
+
+}
+
+
+
+
+.heading3{
+    width: 900px;
+    height: 250px;
+    background: rgb(0, 234, 255);
+    position: relative;
+    display: flex;
+    border-radius: 1999px;
+    font-size: 65px;
+    font-style: italic;
+
+
+}
+.search-box{
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar{
+    width: 300%;
+    max-width: 700px;
+    height: 40px;
+    background: rgba(255, 0, 153, 0.758);
+    display: flex;
+    align-items: center;
+    border-radius: 1000px;
+    padding: 20px 30px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 40px;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+
+::placeholder{
+    color: rgb(8, 9, 9);
+}
+
+.search-bar button img{
+    width: 50px;
+}
+
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: rgb(70, 70, 70);
+    cursor: pointer;
+}
+
+
+.nav-area {
+    height: 500px seach-box ;
+    font-size: 25px;
+}
+.nav-area li{
+    display: inline-block;
+}
+
