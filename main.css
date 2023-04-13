@@ -3,15 +3,21 @@ html {
     scroll-behavior: smooth;
 }
 
+
+@media (max-width:500px)
+
+{
+
 body {
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("img/balloons-1869790_640.jpg");
-    height: 470vh;
+    height: 90vh;
     -webkit-background-size:cover;
     background-size: cover;
     background-position: center;
     position: relative;
 
 
+}
 }
 
 a{
