@@ -13,7 +13,7 @@ html {
 body {
     background: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.964)), url("img/Picsart_23-04-15_13-53-33-937.jpg");
     width: 100%;
-    height: 100vh;
+    height: 160vh;
     -webkit-background-size:cover;
     background-size: cover;
     background-position: center;
@@ -391,7 +391,7 @@ a{
     body {
         background: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.964)), url("img/Picsart_23-04-15_13-53-33-937.jpg");
         width: 100%;
-        height: 100vh;
+        height: 160vh;
         -webkit-background-size:cover;
         background-size: cover;
         background-position: center;
