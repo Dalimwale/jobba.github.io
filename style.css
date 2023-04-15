@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 22px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.964)), url("img/Picsart_23-04-15_13-53-33-937.jpg");
+    width: 100%;
+    height: 180vh;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.button {
+    font-size: 20px;
+    margin: 3.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px rgb(0, 0, 0);
+    font-weight: bold;
+    color: rgba(255, 250, 250, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px rgb(0, 0, 0);
+    border-radius: 100px;
+    cursor: pointer;
+}
+.button li{
+    display: inline-block;
+    margin: 0.2em;
+
+}
+.button1{
+    font-size: 22px;
+    color: rgb(8, 219, 243);
+    background-color: rgb(0, 183, 255);
+    border-radius: 100px;
+    border: 7px rgb(0, 0, 0);
+    border: 7px rgb(0, 0, 0);
+    width: 120px;
+}
+
+.button2{
+    font-size: 20px;
+    color: rgb(8, 219, 243);
+    background-color: rgb(217, 255, 0);
+    border-radius: 100px;
+    border: 7px rgb(0, 0, 0);
+    border: 7px rgb(0, 0, 0);
+    width: 120px;
+}
+
+.button3{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    border: 7px rgb(0, 0, 0);
+    border: 7px rgb(0, 0, 0);
+    width: 120px;
+}
+a{
+        
+    color: #070707;
+}
+a{
+    text-decoration: none;
+}
+
+.heading1{
+        width: px;
+        height: 65px;
+        background: rgb(255, 251, 0);
+        position: relative;
+        display: flex;
+        border-radius: 1999px;
+        font-size: 20px;
+        font-style: italic
+
+}
+
+.button4 {
+    width: 450px;
+        height: 45px;
+        background: rgb(255, 1, 141);
+        position: relative;
+        display: flex;
+        border-radius: 1999px;
+        font-size: 35px;
+        font-style: bold
+}
+.button5 {
+    width: 400px;
+        height: 45px;
+        background: rgb(255, 255, 255);
+        position: relative;
+        display: flex;
+        border-radius: 10px;
+        font-size: 35px;
+        font-style: bold}  
+
+.button6{
+        width: 500px;
+        height: 45px;
+        background: rgb(255, 140, 0);
+        position: relative;
+        display: flex;
+        border-radius: 19px;
+        font-size: 27px;
+        font-style: bold}
+
+.button7 {
+        width: 350px;
+        height: 45px;
+        background: rgb(2, 247, 255);
+        position: relative;
+        display: flex;
+        border-radius: 1500px;
+        font-size: 35px;
+        font-style: bold
+    }
+
+    .button8{
+        width: 400px;
+        height: 45px;
+        background: rgb(255, 247, 2);
+        position: relative;
+        display: flex;
+        border-radius: 15px;
+        font-size: 35px;
+        font-style: bold
+    }
+    
+    .button9{
+        width: 340px;
+        height: 45px;
+        background: rgb(0, 254, 119);
+        position: relative;
+        display: flex;
+        border-radius: 15px;
+        font-size: 40px;
+        font-style: bold}   
+    
+        .heading2{
+            width: px;
+            height: 70px;
+            background: rgb(255, 255, 255);
+            position: relative;
+            display: flex;
+            border-radius: 1999px;
+            font-size: 20px;
+            font-style: italic   
+    }
+    .button10{
+        width: 200px;
+        height: 45px;
+        background: rgb(255, 0, 234);
+        position: relative;
+        display: flex;
+        border-radius: 1500px;
+        font-size: 40px;
+        font-style: bold}
+
+        .button11{
+            width: 470px;
+            height: 45px;
+            background: rgb(255, 119, 0);
+            position: relative;
+            display: flex;
+            border-radius: 10px;
+            font-size: 40px;
+            font-style: bold} 
+
+                                                                        .button12{
+        width: 300px;
+        height: 45px;
+        background: rgb(0, 140, 255);
+        position: relative;
+        display: flex;
+        border-radius: 100px;
+        font-size: 40px;
+        font-style: bold
+    
+    }
+    .button13{
+        width: 100px;
+        height: 45px;
+        background: rgb(0, 255, 8);
+        position: relative;
+        display: flex;
+        border-radius: 100px;
+        font-size: 40px;
+        font-style: bold
+    }       
+    
+    .button14{
+        width: 300px;
+        height: 45px;
+        background: rgb(192, 255, 2);
+        position: relative;
+        display: flex;
+        border-radius: 100px;
+        font-size: 40px;
+        font-style: bold
+    }
+    .button15{
+        width: 180px;
+        height: 45px;
+        background: rgb(255, 255, 255);
+        position: relative;
+        display: flex;
+        border-radius: 100px;
+        font-size: 40px;
+        font-style: bold
+    } 
+    
+    .button16{
+        width: 210px;
+        height: 45px;
+        background: rgb(255, 6, 172);
+        position: relative;
+        display: flex;
+        border-radius: 10px;
+        font-size: 40px;
+        font-style: bold
+    } 
+
+    .button17{
+        width: 270px;
+        height: 45px;
+        background: rgb(246, 255, 0);
+        position: relative;
+        display: flex;
+        border-radius: 100px;
+        font-size: 40px;
+        font-style: bold
+    } 
+    .button18{
+        width: 200px;
+        height: 45px;
+        background: rgb(0, 255, 200);
+        position: relative;
+        display: flex;
+        border-radius: 100px;
+        font-size: 40px;
+        font-style: bold
+    }    
+
+    .button19{
+        width: 280px;
+        height: 55px;
+        background: rgb(255, 140, 0);
+        position: relative;
+        display: flex;
+        border-radius: 500px;
+        font-size: 40px;
+        font-style: bold
+    } 
+
+    .button20{
+        width: 290px;
+        height: 50px;
+        background: rgb(255, 3, 188);
+        position: relative;
+        display: flex;
+        border-radius: 100px;
+        font-size: 40px;
+        font-style: bold
+    } 
+
+    .heading3{
+        width: px;
+        height: 65px;
+        background: rgb(6, 255, 238);
+        position: relative;
+        display: flex;
+        border-radius: 1999px;
+        font-size: 20px;
+        font-style: italic
+
+}
+.button21{
+    width: 200px;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    border-radius: 10px;
+    font-size: 40px;
+    font-style: bold
+} 
+
+.button22{
+    width: 470px;
+    height: 50px;
+    background: rgb(242, 255, 0);
+    position: relative;
+    display: flex;
+    border-radius: 1000px;
+    font-size: 40px;
+    font-style: bold
+} 
+
+.button23{
+    width: 290px;
+    height: 50px;
+    background: rgb(255, 3, 188);
+    position: relative;
+    display: flex;
+    border-radius: 100px;
+    font-size: 40px;
+    font-style: bold
+} 
+
+.button24{
+    width: 210px;
+    height: 50px;
+    background: rgb(1, 238, 255);
+    position: relative;
+    display: flex;
+    border-radius: 100px;
+    font-size: 40px;
+    font-style: bold
+} 
+
+.button25{
+    width: 200px;
+    height: 50px;
+    background: rgb(255, 150, 3);
+    position: relative;
+    display: flex;
+    border-radius: 10px;
+    font-size: 40px;
+    font-style: bold
+} 
+
+.button26{
+    width: 400px;
+    height: 50px;
+    background: rgb(252, 252, 252);
+    position: relative;
+    display: flex;
+    border-radius: 10000px;
+    font-size: 40px;
+    font-style: bold
+}
+
+.button27{
+    width: px;
+    height: 70px;
+    background: rgb(255, 255, 0);
+    position: relative;
+    display: flex;
+    border-radius: 10000px;
+    font-size: 40px;
+    font-style: bold
+} 
