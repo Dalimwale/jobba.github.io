@@ -390,8 +390,8 @@ a{
 
     body {
         background: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.964)), url("img/Picsart_23-04-15_13-53-33-937.jpg");
-        width: 80%;
-        height: 160vh;
+        width: 150%;
+        height: 180vh;
         -webkit-background-size:cover;
         background-size: cover;
         background-position: center;
@@ -403,7 +403,7 @@ a{
       
         border: 0;
         outline: 0;
-        width: 80%;
+        width: 150%;
         height: 40px;
         background:#282727;
         color: #ffffff;
@@ -414,7 +414,7 @@ a{
     }
 
     .heading2{
-        width: 80%;
+        width: 150%;
         height: 40px;
         background: rgb(44, 43, 43);
         color: #fafafa;
@@ -426,7 +426,7 @@ a{
 }
 
 .heading3{
-    width: 80%;
+    width: 150%;
     height: 40px;
     background: rgb(65, 63, 63);
     color: #ffffff;
