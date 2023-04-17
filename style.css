@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    height: -webkit-fill-available;
+    font-size: 22px;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+   background: #000000;
+    width: 100%;
+    height: 100vh;
+height: webkit-fill-available;
+flex-direction: column;
+}
+
+
+    
+
+
+.button {
+    font-size: 1px;
+    width: 100%;
+    margin: 4.4em;
+    background: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px rgb(0, 0, 0);
+    font-weight: bold;
+    color: rgba(255, 250, 250, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px rgb(0, 0, 0);
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.button li{
+    display: inline-block;
+
+}
+.button1{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    border-radius: 100px;
+    border: 7px rgb(0, 0, 0);
+    border: 7px rgb(0, 0, 0);
+    width: 7px;
+}
+
+.button2{
+    font-size: 20px;
+    color: rgb(8, 219, 243);
+    background-color: rgb(0, 0, 0);
+    border-radius: 100px;
+    border: 7px rgb(0, 0, 0);
+    border: 7px rgb(0, 0, 0);
+    width: 7px;
+}
+
+.button3{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 100px;
+    border: 7px rgb(0, 0, 0);
+    border: 7px rgb(0, 0, 0);
+    width: 7px;
+}
+a{
+        
+    color: #ff8103;
+}
+a{
+    text-decoration: none;
+}
+
+.heading1{
+      
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 40px;
+    background:#282727;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+.button {
+    border: 0;
+    outline: 0;
+    width: 50%;
+    height: 45px;
+    background: transparent;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    font-style: bold}  
+
+.button5 {
+    width: 400px;
+        height: 45px;
+        background: rgb(0, 0, 0);
+        position: relative;
+        display: flex;
+        border-radius: 10px;
+        font-size: 18px;
+        font-style: bold;
+    
+    
+    }  
+
+.button6{
+        width: 500px;
+        height: 45px;
+        background: rgb(0, 0, 0);
+        position: relative;
+        display: flex;
+        border-radius: 19px;
+        font-size: 18px;
+        font-style: bold}
+
+.button7 {
+        width: 350px;
+        height: 45px;
+        background: rgb(0, 0, 0);
+        position: relative;
+        display: flex;
+        border-radius: 1500px;
+        font-size: 18px;
+        font-style: bold
+    }
+
+    .button8{
+        width: 400px;
+        height: 45px;
+        background: rgb(0, 0, 0);
+        position: relative;
+        display: flex;
+        border-radius: 15px;
+        font-size: 18px;
+        font-style: bold
+    }
+    
+    .button9{
+        width: 340px;
+        height: 45px;
+        background: rgb(0, 0, 0);
+        position: relative;
+        display: flex;
+        border-radius: 15px;
+        font-size: 18px;
+        font-style: bold}   
+    
+        .heading2{
+            width: 100%;
+            height: 40px;
+            background: rgb(44, 43, 43);
+            color: #fafafa;
+            position: relative;
+            display: flex;
+            border-radius: 1999px;
+            font-size: 20px;
+            font-style: italic   
+    }
+    .button10{
+        width: 200px;
+        height: 45px;
+        background: rgb(0, 0, 0);
+        position: relative;
+        display: flex;
+        border-radius: 1500px;
+        font-size: 18px;
+        font-style: bold}
+
+        .button11{
+            width: 470px;
+            height: 45px;
+            background: rgb(0, 0, 0);
+            position: relative;
+            display: flex;
+            border-radius: 10px;
+            font-size: 18px;
+            font-style: bold} 
+
+     .button12{
+        width: 300px;
+        height: 45px;
+        background: rgb(0, 0, 0);
+        position: relative;
+        display: flex;
+        border-radius: 100px;
+        font-size: 18px;
+        font-style: bold
+    
+    }
+    .button13{
+        width: 100px;
+        height: 45px;
+        background: rgb(0, 0, 0);
+        position: relative;
+        display: flex;
+        border-radius: 100px;
+        font-size: 18px;
+        font-style: bold
+    }       
+    
+    .button14{
+        width: 300px;
+        height: 45px;
+        background: rgb(0, 0, 0);
+        position: relative;
+        display: flex;
+        border-radius: 100px;
+        font-size: 18px;
+        font-style: bold
+    }
+    .button15{
+        width: 180px;
+        height: 45px;
+        background: rgb(0, 0, 0);
+        position: relative;
+        display: flex;
+        border-radius: 100px;
+        font-size: 18px;
+        font-style: bold
+    } 
+    
+    .button16{
+        width: 210px;
+        height: 45px;
+        background: rgb(0, 0, 0);
+        position: relative;
+        display: flex;
+        border-radius: 10px;
+        font-size: 18px;
+        font-style: bold
+    } 
+
+    .button17{
+        width: 270px;
+        height: 45px;
+        background: rgb(0, 0, 0);
+        position: relative;
+        display: flex;
+        border-radius: 100px;
+        font-size: 18px;
+        font-style: bold
+    } 
+    .button18{
+        width: 200px;
+        height: 45px;
+        background: rgb(0, 0, 0);
+        position: relative;
+        display: flex;
+        border-radius: 100px;
+        font-size: 18px;
+        font-style: bold
+    }    
+
+    .button19{
+        width: 280px;
+        height: 55px;
+        background: rgb(0, 0, 0);
+        position: relative;
+        display: flex;
+        border-radius: 500px;
+        font-size: 18px;
+        font-style: bold
+    } 
+
+    .button20{
+        width: 290px;
+        height: 50px;
+        background: rgb(0, 0, 0);
+        position: relative;
+        display: flex;
+        border-radius: 100px;
+        font-size: 18px;
+        font-style: bold
+    } 
+
+    .heading3{
+        width: 100%;
+        height: 40px;
+        background: rgb(65, 63, 63);
+        color: #ffffff;
+        position: relative;
+        display: flex;
+        border-radius: 1999px;
+        font-size: 20px;
+        font-style: italic
+
+}
+.button21{
+    width: 200px;
+    height: 50px;
+    background: rgb(0, 0, 0);
+    position: relative;
+    display: flex;
+    border-radius: 10px;
+    font-size: 18px;
+    font-style: bold
+} 
+
+.button22{
+    width: 470px;
+    height: 50px;
+    background: rgb(0, 0, 0);
+    position: relative;
+    display: flex;
+    border-radius: 1000px;
+    font-size: 18px;
+    font-style: bold
+} 
+
+.button23{
+    width: 290px;
+    height: 50px;
+    background: rgb(0, 0, 0);
+    position: relative;
+    display: flex;
+    border-radius: 100px;
+    font-size: 18px;
+    font-style: bold
+} 
+
+.button24{
+    width: 210px;
+    height: 50px;
+    background: rgb(0, 0, 0);
+    position: relative;
+    display: flex;
+    border-radius: 100px;
+    font-size: 18px;
+    font-style: bold
+} 
+
+.button25{
+    width: 200px;
+    height: 50px;
+    background: rgb(0, 0, 0);
+    position: relative;
+    display: flex;
+    border-radius: 10px;
+    font-size: 18px;
+    font-style: bold
+} 
+
+.button26{
+    width: 50%;
+    height: 50px;
+    background: rgb(0, 0, 0);
+    position: relative;
+    display: flex;
+    border-radius: 10000px;
+    font-size: 4px;
+    font-style: bold
+}
+
+.button27{
+    width: 100%;
+    height: 40px;
+    background: rgb(52, 50, 50);
+    position: relative;
+    display: flex;
+    border-radius: 10000px;
+    font-size: 35px;
+    font-style: bold
+} 
+
+.nav{
+    height: 300px;
+    font-size: 20px;
+}
+
+
+
+@media only screen and (min-width: 605px) {
+    
+
+    body {
+        display: flex;
+       background: #000000;
+        width: 100%;
+        height: 100vh;
+    height: webkit-fill-available;
+    flex-direction: column;
+    }
+    
+
+    .heading1{
+      
+        border: 0;
+        outline: 0;
+        width: 100%;
+        height: 40px;
+        background:#282727;
+        color: #ffffff;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        
+    }
+
+    .heading2{
+        width: 100%;
+        height: 40px;
+        background: rgb(44, 43, 43);
+        color: #fafafa;
+        position: relative;
+        display: flex;
+        border-radius: 1999px;
+        font-size: 20px;
+        font-style: italic   
+}
+
+.heading3{
+    width: 100%;
+    height: 40px;
+    background: rgb(65, 63, 63);
+    color: #ffffff;
+    position: relative;
+    display: flex;
+    border-radius: 1999px;
+    font-size: 20px;
+    font-style: italic
+
+}
+}
+
+.nav{
+    height: 300px;
+    font-size: 20px;
+}
+
+
+
+
