@@ -1,13 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
+
 
 html {
     height: -webkit-fill-available;
-    font-size: 22px;
     scroll-behavior: smooth;
 }
 
@@ -27,7 +21,12 @@ flex-direction: column;
 
 
     
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 
 .button {
     font-size: 1px;
@@ -89,9 +88,9 @@ a{
       
     border: 0;
     outline: 0;
-    width: 100%;
+    width: 40%;
     height: 40px;
-    background:#282727;
+    background:#0f0f0f;
     color: #ffffff;
     border-radius: 10px;
     font-size: 20px;
@@ -167,9 +166,9 @@ a{
         font-style: bold}   
     
         .heading2{
-            width: 100%;
+            width: 40%;
             height: 40px;
-            background: rgb(44, 43, 43);
+            background: rgb(28, 27, 27);
             color: #fafafa;
             position: relative;
             display: flex;
@@ -295,9 +294,9 @@ a{
     } 
 
     .heading3{
-        width: 100%;
+        width: 40%;
         height: 40px;
-        background: rgb(65, 63, 63);
+        background: rgb(21, 20, 20);
         color: #ffffff;
         position: relative;
         display: flex;
@@ -453,6 +452,17 @@ a{
     font-size: 20px;
 }
 
+.courseheading{
+    width: 40%;
+    height: 40px;
+    background: rgb(28, 27, 27);
+    color: #fafafa;
+    position: relative;
+    display: flex;
+    border-radius: 1999px;
+    font-size: 10px;
+    font-style: italic   
+}
 
 
 
