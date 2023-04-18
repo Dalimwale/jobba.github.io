@@ -6,19 +6,19 @@ html {
     width: 100%;
     background-size:center;
     background-size: 100%;
-    position: absolute;
+
 
 
 }
 
 body {
-    
-   background: #000000;
+
+    background: #000000;
     width: 100%;
     height: 100vh;
     position: absolute;
     background-size: 100%;
-    position: absolute;
+    
 }
 
 
@@ -43,11 +43,6 @@ body {
     border: 1px rgb(0, 0, 0);
     border-radius: 100px;
     cursor: pointer;
-}
-
-.button li{
-    display: inline-block;
-
 }
 .button1{
     font-size: 20px;
@@ -90,7 +85,7 @@ a{
       
     border: 0;
     outline: 0;
-    width: 40%;
+    width: 60%;
     height: 40px;
     background:#0f0f0f;
     color: #ffffff;
@@ -168,7 +163,7 @@ a{
         font-style: bold}   
     
         .heading2{
-            width: 40%;
+            width: 60%;
             height: 40px;
             background: rgb(28, 27, 27);
             color: #fafafa;
@@ -296,7 +291,7 @@ a{
     } 
 
     .heading3{
-        width: 40%;
+        width: 60%;
         height: 40px;
         background: rgb(21, 20, 20);
         color: #ffffff;
@@ -391,7 +386,7 @@ a{
 
 
 
-@media only screen and (min-width: 605px) {
+@media only screen and (min-width: 606px) {
     
         body {
             
@@ -408,7 +403,7 @@ a{
       
         border: 0;
         outline: 0;
-        width: 100%;
+        width: 50%;
         height: 40px;
         background:#282727;
         color: #ffffff;
@@ -419,7 +414,7 @@ a{
     }
 
     .heading2{
-        width: 100%;
+        width: 50%;
         height: 40px;
         background: rgb(44, 43, 43);
         color: #fafafa;
@@ -431,8 +426,8 @@ a{
 }
 
 .heading3{
-    width: 100%;
-    height: 40px;
+    width: 50%;
+    height: 50px;
     background: rgb(65, 63, 63);
     color: #ffffff;
     position: relative;
@@ -449,17 +444,7 @@ a{
     font-size: 20px;
 }
 
-.courseheading{
-    width: 40%;
-    height: 40px;
-    background: rgb(28, 27, 27);
-    color: #fafafa;
-    position: relative;
-    display: flex;
-    border-radius: 1999px;
-    font-size: 10px;
-    font-style: italic   
-}
+
 
 
 
