@@ -440,6 +440,16 @@ html {
     font-size: 20px;
 }
 
+. contact { 
+    height: 40px;
+    background: rgb(52, 50, 50);
+    position: relative;
+    display: flex;
+    border-radius: 10000px;
+    font-size: 35px;
+    font-style: bold
+
+}
 
 
 
