@@ -4,7 +4,7 @@ html {
     width: 30%;
     background-size:center;
     height: 100vh;
-   
+ 
 
 
 
@@ -383,6 +383,15 @@ a{
 
 
 @media only screen and (min-width: 606px) {
+html {
+    width: 30%;
+    background-size:center;
+    height: 100vh;
+ 
+
+
+
+}
     
         body {
             
