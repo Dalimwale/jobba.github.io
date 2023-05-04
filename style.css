@@ -2,27 +2,64 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;}
+
+
+
+
+@font-face {
+    font-family: myfont;
+    src: url(jobafont.otf);
 }
 
-.nav{margin-top: 200;
+.btnjoba{
+    margin-top: -14%;
     width: 100%;
-    height: 47px;
-    font-size: 35px;
+    height: 70px;
+    background: rgb(57, 15, 15);
+    color: #fbfbfb;
+    position: relative;
+    display: flex;
+    border-radius: 10px;
+    font-size: 50px;
+    font-family: myfont;
+    position: fixed;
+}
+
+.nav{margin-top: -5px;
+    width: 100%;
+    height: -10px;
+    font-size: 20px;
+    background-position: center;
+    background: #3d1919;
+    background-color: #360d0d;
     font-style: italic;
     text-align: center;
+    position: fixed;
+    
+    
+}
+.nav ul{text-align: left;
+    font-size: 50px;
+    width: 25%
+    ;
+    font-style: oblique;
+    
+
+
 }
 
+
 html {
-    background: rgb(0, 0, 0);
+    background: rgb(16, 7, 7);
     scroll-behavior: smooth;
-    width: 100%;
-    background-size:center;
+    background-position: center;
     background-size: 100%;
+    
+
 }
 
 body {
-    
     width: 100%;
     height: 100vh;
     position: absolute;
@@ -33,21 +70,26 @@ body {
 
 
 .nav2{
-    margin-top: 10;
+    margin-top: -900px;
+    border: 0;
+    outline: 0;
     width: 100%;
-    height: 47px;
-    font-size: 20px;
-    font-style: italic;
+    height: 80px;
+    background:#3c0f0f;
+    color: #000000;
+    border-radius: 10px;
+    font-size: 55px;
+    cursor: pointer;
     text-align: center;
+    position: fixed;
 }
 
 
 
+
 .button {
-    font-size: 1px;
     width: 100%;
     margin: 4.4em;
-    background: transparent;
     font-family: Arial, Helvetica, sans-serif;
     border: 1px rgb(0, 0, 0);
     font-weight: bold;
@@ -57,35 +99,7 @@ body {
     border-radius: 100px;
     cursor: pointer;
 }
-.button1{
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-    background-color: rgb(0, 0, 0);
-    border-radius: 100px;
-    border: 7px rgba(0, 0, 0, 0);
-    border: 7px rgb(0, 0, 0);
-    width: 7px;
-}
 
-.button2{
-    font-size: 20px;
-    color: rgb(8, 219, 243);
-    background-color: rgba(219, 120, 120, 0);
-    border-radius: 100px;
-    border: 7px rgba(0, 0, 0, 0);
-    border: 7px rgba(0, 0, 0, 0);
-    width: 7px;
-}
-
-.button3{
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    border-radius: 100px;
-    border: 7px rgb(0, 0, 0);
-    border: 7px rgb(0, 0, 0);
-    width: 7px;
-}
 a{
         
     color: #ffffff;
@@ -94,41 +108,67 @@ a{
     text-decoration: none;
 }
 
+.courseheadings{ border: 0;
+    outline: 0;
+    width: 100%;
+    height: 40px;
+    background:#690812f9;
+    color: #fffcfc;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+.courseheadings4largePages{ border: 0;
+    outline: 0;
+    width: 100%;
+    height: 40px;
+    background:#4e041ef9;
+    color: #fff9f9;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
 .heading1{
-    margin-top: -350;
-      
+    margin-top: -50;
     border: 0;
     outline: 0;
     width: 100%;
     height: 40px;
-    background:#ffffff6d;
-    color: #000000;
+    background:#2f0c0cfe;
+    color: #ffffff;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 24px;
     cursor: pointer;
+
     
 }
 
-.button {
-    border: 0;
-    outline: 0;
-    width: 50%;
-    height: 45px;
-    background: transparent;
-    color: #ffffff;
-    border-radius: 10px;
-    font-size: 20px;
-    cursor: pointer;
-    font-style: bold}  
+.button4 {
+    width: 400px;
+        height: 45px;
+        background: rgba(0, 0, 0, 0);
+        display: flex;
+        border-radius: 10px;
+        font-size: 30px;
+        font-style: bold;
+    
+    
+    }  
+
 
 .button5 {
     width: 400px;
         height: 45px;
         background: rgba(0, 0, 0, 0);
-        position: relative;
         display: flex;
         border-radius: 10px;
-        font-size: 20px;
+        font-size: 30px;
         font-style: bold;
     
     
@@ -138,31 +178,28 @@ a{
         width: 500px;
         height: 45px;
         background: rgba(0, 0, 0, 0);
-        position: relative;
         display: flex;
         border-radius: 19px;
-        font-size: 20px;
+        font-size: 25px;
         font-style: bold}
 
 .button7 {
-        width: 350px;
+        width: 500px;
         height: 45px;
         background: rgba(0, 0, 0, 0.006);
-        position: relative;
         display: flex;
         border-radius: 1500px;
-        font-size: 20px;
+        font-size: 30px;
         font-style: bold
     }
 
     .button8{
-        width: 400px;
+        width: 3500px;
         height: 45px;
         background: rgba(0, 0, 0, 0);
-        position: relative;
         display: flex;
         border-radius: 15px;
-        font-size: 20px;
+        font-size: 30px;
         font-style: bold
     }
     
@@ -170,51 +207,46 @@ a{
         width: 340px;
         height: 45px;
         background: rgba(0, 0, 0, 0);
-        position: relative;
         display: flex;
         border-radius: 15px;
-        font-size: 20px;
+        font-size: 30px;
         font-style: bold}   
     
         .heading2{
             width: 100%;
             height: 40px;
-            background: rgba(255, 255, 255, 0.468);
-            color: #000000;
-            position: relative;
+            background: #2f0c0cfe;
+            color: #fbfbfb;
             display: flex;
             border-radius: 1999px;
-            font-size: 20px;
+            font-size: 24px;
             font-style: italic   
     }
     .button10{
         width: 200px;
         height: 45px;
         background: rgba(0, 0, 0, 0);
-        position: relative;
         display: flex;
         border-radius: 1500px;
-        font-size: 20px;
+        font-size: 30px;
         font-style: bold}
 
         .button11{
             width: 470px;
             height: 45px;
             background: rgba(0, 0, 0, 0);
-            position: relative;
             display: flex;
             border-radius: 10px;
-            font-size: 20px;
+            font-size: 30px;
             font-style: bold} 
 
      .button12{
         width: 300px;
         height: 45px;
         background: rgba(0, 0, 0, 0.05);
-        position: relative;
         display: flex;
         border-radius: 100px;
-        font-size: 20px;
+        font-size: 30px;
         font-style: bold
     
     }
@@ -222,10 +254,9 @@ a{
         width: 100px;
         height: 45px;
         background: rgba(0, 0, 0, 0);
-        position: relative;
         display: flex;
         border-radius: 100px;
-        font-size: 20px;
+        font-size: 30px;
         font-style: bold
     }       
     
@@ -233,20 +264,18 @@ a{
         width: 300px;
         height: 45px;
         background: rgba(0, 0, 0, 0);
-        position: relative;
         display: flex;
         border-radius: 100px;
-        font-size: 20px;
+        font-size: 30px;
         font-style: bold
     }
     .button15{
         width: 180px;
         height: 45px;
         background: rgba(0, 0, 0, 0);
-        position: relative;
         display: flex;
         border-radius: 100px;
-        font-size: 20px;
+        font-size: 30px;
         font-style: bold
     } 
     
@@ -254,31 +283,28 @@ a{
         width: 210px;
         height: 45px;
         background: rgba(0, 0, 0, 0);
-        position: relative;
         display: flex;
         border-radius: 10px;
-        font-size: 20px;
+        font-size: 30px;
         font-style: bold
     } 
 
     .button17{
-        width: 270px;
+        width: 470px;
         height: 45px;
         background: rgba(0, 0, 0, 0);
-        position: relative;
         display: flex;
         border-radius: 100px;
-        font-size: 20px;
+        font-size: 25px;
         font-style: bold
     } 
     .button18{
-        width: 200px;
+        width: 350px;
         height: 45px;
         background: rgba(0, 0, 0, 0);
-        position: relative;
         display: flex;
         border-radius: 100px;
-        font-size: 20px;
+        font-size: 30px;
         font-style: bold
     }    
 
@@ -286,10 +312,9 @@ a{
         width: 280px;
         height: 55px;
         background: rgba(0, 0, 0, 0);
-        position: relative;
         display: flex;
         border-radius: 500px;
-        font-size: 20px;
+        font-size: 30px;
         font-style: bold
     } 
 
@@ -297,33 +322,30 @@ a{
         width: 290px;
         height: 50px;
         background: rgba(0, 0, 0, 0);
-        position: relative;
         display: flex;
         border-radius: 100px;
-        font-size: 20px;
+        font-size: 30px;
         font-style: bold
     } 
 
     .heading3{
         width: 100%;
         height: 40px;
-        background: rgba(255, 255, 255, 0.521);
-        color: #00000084;
-        position: relative;
+        background: #2f0c0cfe;
+        color: #ffffff;
         display: flex;
         border-radius: 1999px;
-        font-size: 20px;
-        font-style: italic
+        font-size: 24px;
+        font-style: italic;
 
 }
 .button21{
     width: 200px;
     height: 50px;
     background: rgba(0, 0, 0, 0);
-    position: relative;
     display: flex;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 30px;
     font-style: bold
 } 
 
@@ -331,10 +353,9 @@ a{
     width: 470px;
     height: 50px;
     background: rgba(0, 0, 0, 0);
-    position: relative;
     display: flex;
     border-radius: 1000px;
-    font-size: 20px;
+    font-size: 30px;
     font-style: bold
 } 
 
@@ -342,10 +363,9 @@ a{
     width: 290px;
     height: 50px;
     background: rgba(0, 0, 0, 0);
-    position: relative;
     display: flex;
     border-radius: 100px;
-    font-size: 20px;
+    font-size: 30px;
     font-style: bold
 } 
 
@@ -353,10 +373,9 @@ a{
     width: 210px;
     height: 50px;
     background: rgba(0, 0, 0, 0);
-    position: relative;
     display: flex;
     border-radius: 100px;
-    font-size: 20px;
+    font-size: 30px;
     font-style: bold
 } 
 
@@ -364,10 +383,9 @@ a{
     width: 200px;
     height: 50px;
     background: rgba(0, 0, 0, 0);
-    position: relative;
     display: flex;
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 30px;
     font-style: bold
 } 
 
@@ -391,95 +409,232 @@ a{
     border-radius: 10000px;
     font-size: 35px;
     font-style: bold
-} 
-
-.nav{
-    height: 300px;
-    font-size: 20px;
 }
 
 
 
 @media only screen and (min-width: 606px) {
 
-    html {
-        background: rgb(0, 0, 0);
-        scroll-behavior: smooth;
-            width: 100%;
-            background-size:center;
-            background-size: 100%;
-        
-        
-        }
-        
-        nav{margin-top: 300;
-            width: 100%;
-            height: 47px;
-            font-size: 35px;
-            font-style: italic;
-            text-align: center;
-        }
-        
-        nav2{
-            margin-top: 10;
-            width: 100%;
-            height: 47px;
-            font-size: 20px;
-            font-style: italic;
-            text-align: center;
-        }
-    
-        body {
-            width: 100%;
-            height: 100vh;
-            position: absolute;
-            background-size: 100%;
-            position: absolute;
-        }
-    
 
-    .heading1{
-      
-        border: 0;
-        outline: 0;
-        width: 100%;
-        height: 40px;
-        background:#282727;
-        color: #ffffff;
-        border-radius: 10px;
-        font-size: 20px;
-        cursor: pointer;
-        
-    }
-
-    .heading2{
-        width: 100%;
-        height: 40px;
-        background: rgb(44, 43, 43);
-        color: #fafafa;
-        position: relative;
-        display: flex;
-        border-radius: 1999px;
-        font-size: 20px;
-        font-style: italic   
+@font-face {
+    font-family: myfont;
+    src: url(jobafont.otf);
 }
 
-.heading3{
+.btnjoba{
+    margin-top: -14%;
     width: 100%;
-    height: 50px;
-    background: rgb(65, 63, 63);
-    color: #ffffff;
+    height: 70px;
+    background: rgb(57, 15, 15);
+    color: #fbfbfb;
     position: relative;
     display: flex;
-    border-radius: 1999px;
-    font-size: 20px;
-    font-style: italic
+    border-radius: 10px;
+    font-size: 50px;
+    font-family: myfont;
+    position: fixed;
+}
+
+.nav{margin-top: -5px;
+    width: 100%;
+    height: 60px;
+    font-size: 25px;
+    background-position: center;
+    background: #3d1919;
+    background-color: #360d0d;
+    font-style: italic;
+    text-align: center;
+    position: fixed;
+    
+    
+}
+.nav ul{text-align: left;
+    font-size: 50px;
+    width: 25%
+    ;
+    font-style: oblique;
+    
+
+
+}
+
+
+html {
+    background: rgb(16, 7, 7);
+    scroll-behavior: smooth;
+    width: 100%;
+    background-position: center;
+    background-size: 100%;
+
+}
+
+body {
+    
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-size: 100%;
+    
+}
+
+
+
+.nav2{
+    margin-top: -850px;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 80px;
+    background:#3c0f0f;
+    color: #000000;
+    border-radius: 10px;
+    font-size: 55px;
+    cursor: pointer;
+    text-align: center;
+    position: fixed;
+}
+
+
+
+
+.button {
+    width: 100%;
+    margin: 4.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px rgb(0, 0, 0);
+    font-weight: bold;
+    color: rgba(255, 250, 250, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px rgba(0, 0, 0, 0);
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+a{
+        
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+}
+
+.courseheadings{ border: 0;
+    outline: 0;
+    width: 100%;
+    height: 40px;
+    background:#4a0308f9;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+.courseheadings4largePages{ border: 0;
+    outline: 0;
+    width: 100%;
+    height: 40px;
+    background:#57080ef9;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
 
 }
 
 
 
 
+.contact{margin-top: 100;
+    width: 100%;
+    height: 100px;
+    font-size: 40px;
+    font-style: italic;
+    position:fixed;
+    left: 400px;
+    bottom: 70px;
+}
+
+
+
+
+.fa-solid{
+    color: #e80000;
+}
+
+.about{
+    margin-top: 50%;
+    color: #f6f6f6;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+
+}
+.aboutIcons{
+    font-size: 60px;
+    margin-top: 100;
+    word-spacing: 50px;
+    
+}
+.fa-phone{
+    color: #ffffff;
+}
+.fa-envelope{color: #ffffff;}
+
+.backToHome{
+
+    font-size: 50px;
+    margin-top: 400;
+}
+
 
 
 }
+
+
+
+
+.contact{margin-top: 100;
+    width: 100%;
+    height: 100px;
+    font-size: 40px;
+    font-style: italic;
+    position:fixed;
+    left: 400px;
+    bottom: 70px;
+}
+
+
+
+
+.fa-solid{
+    color: #ff0000;
+}
+.about{
+    margin-top: 50%;
+    color: #f6f6f6;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-family: myfont;
+
+}
+.aboutIcons{
+    font-size: 60px;
+    margin-top: 100;
+    word-spacing: 50px;
+    
+}
+.fa-phone{
+    color: #ffffff;
+}
+.fa-envelope{color: #ffffff;}
+
+.backToHome{
+
+    font-size: 50px;
+    margin-top: 400;
+}
+
